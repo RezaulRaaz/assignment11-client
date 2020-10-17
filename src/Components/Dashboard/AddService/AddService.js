@@ -15,7 +15,7 @@ const AddService = () => {
         formData.append('title', data.title)
         formData.append('description', data.description)
 
-        fetch('http://localhost:5000/addAService',{
+        fetch('https://tranquil-shelf-58388.herokuapp.com/addAService',{
             method: 'POST',
             body:formData,
         })
@@ -42,7 +42,7 @@ const AddService = () => {
         <div class="row">
           <Sidebar></Sidebar>
             <ReactNotification />
-          <main role="main" class="col-md-9 col-lg-10 py-5">
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
             <div className="service text-left">
                 <form onSubmit={handleSubmit(onSubmit)} >
                 <div className="row">

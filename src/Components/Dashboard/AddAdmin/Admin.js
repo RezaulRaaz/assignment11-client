@@ -36,7 +36,7 @@ const Admin = () => {
         <div class="row">
             <Sidebar></Sidebar>
             <ReactNotification />
-            <main role="main" class="col-md-9 col-lg-10 py-5">
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
               <div className="service text-left">
                   <form onSubmit={handleSubmit(onSubmit)} >
                   <div className="row">
