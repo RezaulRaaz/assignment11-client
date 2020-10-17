@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
 import { UserContext } from "../../App";
+import { AnimationWrapper } from 'react-hover-animation'
 import { useHistory } from "react-router-dom";
 
 const Services = (singleService) => {
@@ -32,11 +33,13 @@ const Services = (singleService) => {
                   onClick={() => enrollService(service)}
                 >
                   <div class="service-card-icon d-flex align-items-center justify-content-center">
+                  <AnimationWrapper>
                     <img
                       src={`data:image/jpeg;base64,${service.icon.img}`}
                       alt=""
                       srcset=""
                     />
+                    </AnimationWrapper>
                   </div>
                   <h4>{service.title}</h4>
                   <p>{service.description}</p>

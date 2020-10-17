@@ -1,14 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import logo from './../../../assets/images/logos/logo.png'
+import React from "react";
+import { Link } from "react-router-dom";
+import logo from "./../../../assets/images/logos/logo.png";
+
 
 const Navar = () => {
-    return (
-<div>
-    <header>
+  return (
+    <div>
+      <header>
         <div class="container">
-            <div class="menu">
-              <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <a  href="#">
                     <img src={logo} width="120" height="35" class="d-inline-block align-top" alt="" loading="lazy"/>
                   </a>
@@ -33,11 +34,11 @@ const Navar = () => {
                   </ul>
                 </div>
               </nav> 
-            </div>
+          </div>
         </div>
-    </header>
-</div>
-    );
+      </header>
+    </div>
+  );
 };
 
 export default Navar;
