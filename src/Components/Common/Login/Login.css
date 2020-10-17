@@ -1,0 +1,21 @@
+.google-btn{
+    margin-top: 20px;
+    border:1px solid rgb(199, 199, 199);
+    height: 50px;
+    border-radius:20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size:18px;
+    font-weight:600;
+
+}
+.login{
+    width:550px;
+    margin:auto;
+    border:1px solid rgb(146, 146, 146);
+    padding:100px 70px;
+    border-radius:10px;
+}
