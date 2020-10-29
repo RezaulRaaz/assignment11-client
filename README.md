@@ -1,4 +1,4 @@
-# Creative agency [Demo](https://agency-8ce53.web.app).[Server](https://github.com/RezaulRaaz/assignment10).
+# Creative agency [Demo](https://agency-8ce53.web.app).Creative agency [Server](https://github.com/RezaulRaaz/assignment10).
 ##### •	This is a Travel agency website .
 ##### •	Traveler can see  deferent type of traveling service and will booking service.
 ##### •	Admin can add new service ,delete service and see booked service .
